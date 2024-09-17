@@ -95,12 +95,6 @@
           <div class="contact_info">
             <img src="html_finalprojimages/envelope.png" alt="Email Icon"/>
             tangulezel@gmail.com
-          </div>
-          <div style="clear:both;"></div>
-          <div class="contact_info">
-            <img src="html_finalprojimages/phone.png" alt="Phone Icon"/>
-            +13456764598
-          </div>
         </div>
 
         <!-- Navigation Links -->
@@ -123,7 +117,7 @@
           </h1>
           <div class="text-container">
           <p>
-            I am a front-end developer with 5 years of experience in both application and presentation layers. As a passionate Front-End Developer, I specialize in creating intuitive and visually appealing user interfaces. With a strong foundation in HTML, CSS, and JavaScript, I bring designs to life and ensure a seamless user experience.
+           I am a newly trained Front-End Developer with a solid foundation in HTML, CSS, and JavaScript. In addition to my development skills, I have hands-on experience in UI/UX design, particularly with Figma, where I have worked on creating user-friendly and visually appealing interfaces. My background also includes three years of experience in project planning, where I developed strong organizational and strategic skills. I am eager to leverage my combined expertise in design and development to contribute to innovative and user-centric web solutions.
           </p>
         </div>
       </section>
@@ -136,32 +130,14 @@
         <div class="skill">
           <h6>HTML5</h6>
           <img src="html_finalprojimages/html5.png" alt="HTML5 Icon"/>
-          <p>5 years experience</p>
         </div>  
         <div class="skill">
           <h6>GitHub</h6>
           <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="GitHub Icon"/>
-          <p>5 years experience</p>
         </div>
         <div class="skill">
           <h6>JavaScript</h6>
           <img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="JavaScript Icon"/>
-          <p>5 years experience</p>
-        </div>
-        <div class="skill">
-          <h6>React</h6>
-          <img src="html_finalprojimages/react.png" alt="React Icon"/>
-          <p>3 years experience</p>
-        </div>
-        <div class="skill">
-          <h6>Vue.js</h6>
-          <img src="https://www.rootsquaretechnologies.com/images/vuejs.png" alt="Vue.js Icon"/>
-          <p>2 years experience</p>
-        </div>
-        <div class="skill">
-          <h6>Angular</h6>
-          <img src="https://th.bing.com/th/id/OIP._ziVMRu8lh3sK6wX6o7rQgAAAA?rs=1&pid=ImgDetMain" alt="Angular Icon"/>
-          <p>2 years experience</p>
         </div>
       </div>
     </section>
@@ -172,7 +148,7 @@
       <div style="clear:both;"></div>
       <div id="projects-container" class="projects-container">
         <div class="project-card">
-          <h3>Responsive E-Commerce Website</h3>
+          <h3>Adding a web page about the solar system for primary school</h3>
           <ul>
             <li>I designed a fully responsive e-commerce platform with a user-friendly interface. Developed using HTML, CSS, and JavaScript, the site integrates Stripe for payments and provides a seamless shopping experience across devices.</li>
           </ul>
@@ -186,7 +162,7 @@
         </div>
         <hr>
         <div class="project-card">
-          <h3>Real-Time Chat Application</h3>
+          <h3>Facilitate faster calculation of interest.</h3>
           <ul>
             <li>Developed a real-time chat application using WebSocket and JavaScript, supporting multiple users with a modern, responsive interface for an engaging messaging experience.</li>
           </ul>
