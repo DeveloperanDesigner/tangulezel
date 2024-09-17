@@ -14,17 +14,11 @@
 ### 1. Adding a web page about the solar system for primary school
 - **Description:** Making solar system knowledge more fluid.
 - **Technologies Used:** HTML, CSS, JavaScript.
-- **Features:**
-- Feature 1
-- Feature 2
 - **Live Demo:** [Demo Link](Project1_demo_link)
 
 ### 2. Simple Interest Calculator
 - **Description:** Facilitate faster calculation of interest.
 - **Technologies Used:** HTML, CSS, React.
-- **Features:**
-- Feature 1
-- Feature 2
 - **Live Demo:** [Demo Link](Project2_demo_link)
 
 ## 📞 Contact
