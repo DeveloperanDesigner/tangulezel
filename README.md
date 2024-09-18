@@ -18,7 +18,7 @@
 
 ### 2. Simple Interest Calculator
 - **Description:** Facilitate faster calculation of interest.
-- **Technologies Used:** HTML, CSS, React.
+- **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project2_demo_link)
 
 ## 📞 Contact
