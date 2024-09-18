@@ -21,6 +21,11 @@
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project2_demo_link)
 
+- ### 2. Wine Festival Schedule
+- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- **Technologies Used:** HTML, CSS, JavaScript.
+- **Live Demo:** [Demo Link](Project2_demo_link)
+
 ## 📞 Contact
 - **E-mail:** [tangulezel@gmail.com](mailto:email@example.com)
 - **LinkedIn:** [www.linkedin.com/in/ezel-tangül](https://www.linkedin.com/in/username/)
