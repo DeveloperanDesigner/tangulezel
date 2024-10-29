@@ -1,6 +1,6 @@
 # Ezel TANGUL Portfolio
 
-👋 Hello! I am Ezel, a Front-End Developer. This portfolio page was created to showcase my skills in HTML, CSS, JavaScript and other technologies. Here you can find information about the projects I have worked on and the solutions I have developed.
+👋 Hello! I am Ezel, a Front-End Developer. This portfolio page was created to showcase my skills in HTML, CSS, JavaScript, React and other technologies. Here you can find information about the projects I have worked on and the solutions I have developed.
 
 ## 🛠️ My Skills
 - HTML5,
@@ -8,6 +8,7 @@
 - JavaScript
 - Git and GitHub
 - Figma
+- React
 
 ## 📁 Projects
 
