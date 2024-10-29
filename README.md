@@ -52,10 +52,16 @@
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project8_demo_link)
 
-- ### 9.FarmStory
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- ### 9.FormaStory
+- **Description:** Information Collection Form Page.
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project9_demo_link)
+
+- ### 9.Fashion Blog
+- **Description:** A project to create a website for a fashion writer titled New York Fashion Week
+- **Technologies Used:** HTML, CSS, JavaScript.
+- **Live Demo:** [Demo Link](Project10_demo_link)
+
   
 ## 📞 Contact
 - **E-mail:** [tangulezel@gmail.com](mailto:email@example.com)
