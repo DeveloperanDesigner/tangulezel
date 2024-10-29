@@ -1,4 +1,65 @@
 # Ezel TANGUL Portfolio
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    overflow-y: hidden;
+  }
+} */
+.hamburger {
+  cursor: pointer;
+  width: 35px;
+  height: 15px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #ffffff;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
 
 👋 Hello! I am Ezel, a Front-End Developer. This portfolio page was created to showcase my skills in HTML, CSS, JavaScript, React and other technologies. Here you can find information about the projects I have worked on and the solutions I have developed.
 
