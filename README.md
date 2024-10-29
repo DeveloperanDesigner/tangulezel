@@ -28,12 +28,12 @@
 - **Live Demo:** [Demo Link](Project3_demo_link)
 
 - ### 4. Company Packing List
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- **Description:** Project of creating a list website at the request of the company.
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project4_demo_link)
 
 - ### 5.New Account Create
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- **Description:** Project to create a new account while becoming a member of the website
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project5_demo_link)
 
@@ -43,25 +43,19 @@
 - **Live Demo:** [Demo Link](Project6_demo_link)
 
 - ### 7.Burger Order App
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- **Description:** Website Project for Creating Orders at a Burger Restaurant.
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project7_demo_link)
 
 - ### 8.Navigation Link
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
+- **Description:** Web page project showing location data.
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project8_demo_link)
 
-- ### 9.FormaStory
-- **Description:** Information Collection Form Page.
+- ### 9.FormAStory
+- **Description:** Form Data Home Page Project.
 - **Technologies Used:** HTML, CSS, JavaScript.
 - **Live Demo:** [Demo Link](Project9_demo_link)
-
-- ### 9.Fashion Blog
-- **Description:** A project to create a website for a fashion writer titled New York Fashion Week
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project10_demo_link)
-
   
 ## 📞 Contact
 - **E-mail:** [tangulezel@gmail.com](mailto:email@example.com)
