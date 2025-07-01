@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="logo.png">
     <meta property="og:url" content="https://littlelemon.com/">
-    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Little Lemon">
     <title>Little Lemon Restaurant</title>
@@ -18,7 +20,8 @@
         /* Basic Styles */
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f7f7f7; /* Neutral background */
+            background-color: #f7f7f7;
+            /* Neutral background */
             margin: 0;
             padding: 0;
         }
@@ -39,7 +42,8 @@
 
         header h1 {
             font-size: 24px;
-            color: #ffcc00; /* Lemon Yellow color for the title */
+            color: #ffcc00;
+            /* Lemon Yellow color for the title */
             margin: 0;
         }
 
@@ -57,21 +61,25 @@
 
         nav a {
             text-decoration: none;
-            color: #333; /* Dark Gray for text */
+            color: #333;
+            /* Dark Gray for text */
             font-weight: 600;
             transition: color 0.3s ease;
         }
 
         nav a:hover {
-            color: #ff6347; /* Warm Coral color for hover state */
+            color: #ff6347;
+            /* Warm Coral color for hover state */
         }
 
         /* Sign Out Button */
         .sign-out {
-            display: none; /* Hidden by default */
+            display: none;
+            /* Hidden by default */
             font-weight: bold;
             color: #fff;
-            background-color: #ff6347; /* Warm Coral color for sign-out button */
+            background-color: #ff6347;
+            /* Warm Coral color for sign-out button */
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
@@ -148,7 +156,8 @@
 
         .blog-article h2 {
             font-size: 24px;
-            color: #ff6347; /* Warm Coral for blog headings */
+            color: #ff6347;
+            /* Warm Coral for blog headings */
             margin-bottom: 10px;
         }
 
@@ -219,6 +228,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Header -->
@@ -251,7 +261,8 @@
             <h2 class="section-title"><a href="about.html">About Us</a></h2>
             <div class="about">
                 <img src="images/logo.svg" alt="Little Lemon Restaurant">
-                <p>Welcome to Little Lemon Restaurant! We, Mario and Adrian, two passionate chefs, combine our years of experience and enthusiasm for food here at Little Lemon...</p>
+                <p>Welcome to Little Lemon Restaurant! We, Mario and Adrian, two passionate chefs, combine our years of
+                    experience and enthusiasm for food here at Little Lemon...</p>
             </div>
         </section>
 
@@ -296,7 +307,7 @@
             document.getElementById('signOutBtn').style.display = 'inline-block';
             document.querySelector('nav ul').style.display = 'none'; // Hide login/signup links
         }
-        
+
         function signOut() {
             // Logic to sign out the user
             alert('You have successfully signed out.');
@@ -306,4 +317,5 @@
     </script>
 
 </body>
+
 </html>
