@@ -1,0 +1,118 @@
+// API Test Script for Little Lemon
+
+const BASE_URL = 'https://api.example.com'; // API'nin temel URL'sini girin
+
+// Test: POST /reservations
+async function testPostReservation() {
+    console.log('Testing: POST /reservations');
+    const testReservation = {
+        date: '2024-12-01',
+        people: 4,
+        location: 'Downtown',
+        tableSize: 4,
+        area: 'indoors',
+    };
+
+    try {
+        const response = await fetch(`${BASE_URL}/reservations`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(testReservation),
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            console.log('POST /reservations Test Passed!', data);
+        } else {
+            console.error('POST /reservations Test Failed:', data.message);
+        }
+    } catch (error) {
+        console.error('Error during POST /reservations:', error);
+    }
+}
+
+// Test: GET /reservations
+async function testGetReservations() {
+    console.log('Testing: GET /reservations');
+
+    try {
+        const response = await fetch(`${BASE_URL}/reservations`, {
+            method: 'GET',
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            console.log('GET /reservations Test Passed!', data);
+        } else {
+            console.error('GET /reservations Test Failed:', data.message);
+        }
+    } catch (error) {
+        console.error('Error during GET /reservations:', error);
+    }
+}
+
+// Initialize available reservation times for a given date
+async function initializeTimes(date) {
+    console.log(`Initializing available times for ${date}`);
+
+    try {
+        const response = await fetch(`${BASE_URL}/reservations/available-times?date=${date}`, {
+            method: 'GET',
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            console.log('Available times initialized:', data);
+            return data; // Returning available times for further usage
+        } else {
+            console.error('Failed to initialize times:', data.message);
+        }
+    } catch (error) {
+        console.error('Error initializing available times:', error);
+    }
+}
+
+// Update reservation times based on the available slots
+async function updateTimes(date, newTimes) {
+    console.log(`Updating available times for ${date}`);
+
+    try {
+        const response = await fetch(`${BASE_URL}/reservations/available-times`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                date: date,
+                availableTimes: newTimes, // This should be an array of available times
+            }),
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            console.log('Available times updated successfully:', data);
+        } else {
+            console.error('Failed to update available times:', data.message);
+        }
+    } catch (error) {
+        console.error('Error updating available times:', error);
+    }
+}
+
+// Main function to run all tests
+(async function runTests() {
+    // Step 1: Test the POST and GET reservation APIs
+    await testPostReservation();
+    await testGetReservations();
+
+    // Step 2: Initialize available times for a specific date
+    const availableTimes = await initializeTimes('2024-12-01');
+
+    if (availableTimes) {
+        // Step 3: Update available times based on some new schedule (example)
+        const newAvailableTimes = ['18:00', '19:00', '20:00']; // Example new available times
+        await updateTimes('2024-12-01', newAvailableTimes);
+    }
+})();

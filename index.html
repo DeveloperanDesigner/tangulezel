@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Little Lemon Restaurant">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://littlelemon.com/">
+    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+    <title>Little Lemon Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7; /* Neutral background */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 100px;
+            max-width: 100%;
+        }
+
+        header h1 {
+            font-size: 24px;
+            color: #ffcc00; /* Lemon Yellow color for the title */
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Dark Gray for text */
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6347; /* Warm Coral color for hover state */
+        }
+
+        /* Sign Out Button */
+        .sign-out {
+            display: none; /* Hidden by default */
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff6347; /* Warm Coral color for sign-out button */
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .sign-out:hover {
+            background-color: #d9534f;
+        }
+
+        /* Main Section Styles */
+        main {
+            padding: 60px 40px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .about img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .menu-item h3 {
+            font-size: 20px;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        .menu-item p {
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .blog-articles {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .blog-article {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-article h2 {
+            font-size: 24px;
+            color: #ff6347; /* Warm Coral for blog headings */
+            margin-bottom: 10px;
+        }
+
+        .blog-article p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        /* Responsive Design (Media Queries) */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .menu-items {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu-item {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .blog-articles {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .menu-item h3 {
+                font-size: 18px;
+            }
+
+            .menu-item p {
+                font-size: 14px;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="flex-center">
+            <img src="images/Logo.svg" alt="Little Lemon Logo">
+            <h1>Little Lemon Restaurant</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="reservation.html">Book a Table</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <!-- Sign Out Button (hidden by default) -->
+        <button id="signOutBtn" class="sign-out" onclick="signOut()">Sign Out</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title"><a href="about.html">About Us</a></h2>
+            <div class="about">
+                <img src="images/logo.svg" alt="Little Lemon Restaurant">
+                <p>Welcome to Little Lemon Restaurant! We, Mario and Adrian, two passionate chefs, combine our years of experience and enthusiasm for food here at Little Lemon...</p>
+            </div>
+        </section>
+
+        <!-- Menu Section (Popular Items Only) -->
+        <section id="menu">
+            <h2 class="section-title"><a href="menu.html">Our Menu</a></h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/bruchetta.svg" alt="Bruchetta">
+                    <h3><a href="menu.html">Bruchetta</a></h3>
+                    <p>$5.99</p>
+                    <p>★★★★☆ (50 reviews)</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/lemon dessert.jpg" alt="Lemon Dessert">
+                    <h3><a href="menu.html">Lemon Dessert</a></h3>
+                    <p>$3.99</p>
+                    <p>★★★☆☆ (30 reviews)</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/greek salad.jpg" alt="Greek Salad">
+                    <h3><a href="menu.html">Greek Salad</a></h3>
+                    <p>$7.99</p>
+                    <p>★★★★★ (70 reviews)</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Little Lemon. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Simulate a login check (this would usually come from session or cookie data)
+        let isLoggedIn = false; // Change to true when user is logged in
+
+        if (isLoggedIn) {
+            document.getElementById('signOutBtn').style.display = 'inline-block';
+            document.querySelector('nav ul').style.display = 'none'; // Hide login/signup links
+        }
+        
+        function signOut() {
+            // Logic to sign out the user
+            alert('You have successfully signed out.');
+            // Redirect to homepage or login page
+            window.location.href = 'login.html'; // or any other appropriate page
+        }
+    </script>
+
+</body>
+</html>

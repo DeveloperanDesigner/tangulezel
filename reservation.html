@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Little Lemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="flex-center">
+            <img src="images/Logo.svg" alt="Little Lemon Logo" width="150">
+            <h1>Book a Table</h1>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <section id="reservation">
+            <h1>Reservation Form</h1>
+            <form id="reservationForm">
+                <div>
+                    <label for="booking_date">Booking Date</label>
+                    <input type="date" id="booking_date" name="booking_date" required>
+                </div>
+                <div>
+                    <label for="booking_people">Number of People</label>
+                    <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                    <output>4</output>
+                </div>
+                <div>
+                    <label for="booking_location">Location</label>
+                    <input id="booking_location" name="booking_location" list="locations" required>
+                    <datalist id="locations">
+                        <option value="Downtown"></option>
+                        <option value="Uptown"></option>
+                    </datalist>
+                </div>
+                <fieldset>
+                    <label>
+                        <input type="radio" value="2" name="size"> 2-person table <br>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="size" checked> 4-person table <br>
+                    </label>
+                    <label>
+                        <input type="radio" value="6" name="size"> 6-person table <br>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" value="indoors" name="location" checked> Indoors<br>
+                    <input type="radio" value="outdoors" name="location"> Outdoors<br>
+                </fieldset>
+                <button type="submit">Book Table</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Little Lemon Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
