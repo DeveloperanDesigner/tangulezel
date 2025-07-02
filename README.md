@@ -1,4 +1,4 @@
-# Tangu Ezel - Portfolio & CV
+# Tangul Ezel - Portfolio & CV
 
 Welcome to my personal portfolio repository! Here you can find my latest projects, coding samples, and my professional CV.
 
