@@ -6,7 +6,7 @@ Welcome to my personal portfolio repository! Here you can find my latest project
 
 ## About Me
 
-I'm Tangu Ezel, a passionate web developer specializing in front-end and UI/UX design. I love building clean, responsive, and user-friendly websites.
+I'm Tangul Ezel, a passionate web developer specializing in front-end and UI/UX design. I love building clean, responsive, and user-friendly websites.
 
 ---
 
@@ -22,9 +22,9 @@ Feel free to browse my projects, learn about my skills, and get in touch!
 
 ## Contact
 
-- 📧 Email: your.email@example.com  
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- 📧 Email: tangulezel@gmple.com  
+- 💼 LinkedIn: www.linkedin.com/in/ezel-tangül  
+
 
 ---
 
