@@ -22,7 +22,7 @@ Feel free to browse my projects, learn about my skills, and get in touch!
 
 ## Contact
 
-- 📧 Email: tangulezel@gmple.com  
+- 📧 Email: tangulezel@gmail.com  
 - 💼 LinkedIn: www.linkedin.com/in/ezel-tangül  
 
 
