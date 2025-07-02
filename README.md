@@ -1,76 +1,130 @@
-# Ezel TANGUL Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ad Campaign Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+    .campaigns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .campaign {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+      max-width: 300px;
+      flex: 1 1 280px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .campaign:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .campaign img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .campaign-content {
+      padding: 15px 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .campaign-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #1d3557;
+    }
+    .campaign-desc {
+      flex-grow: 1;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: #555;
+    }
+    .campaign-link {
+      margin-top: 15px;
+      align-self: flex-start;
+      text-decoration: none;
+      color: #e63946;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .campaign-link:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      .campaigns {
+        flex-direction: column;
+        align-items: center;
+      }
+      .campaign {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
 
-👋 Hello! I am Ezel, a Front-End Developer. This portfolio page was created to showcase my skills in HTML, CSS, JavaScript, React and other technologies. Here you can find information about the projects I have worked on and the solutions I have developed.
+  <h1>Our Latest Ad Campaigns</h1>
 
-## 🛠️ My Skills
-- HTML5,
-- CSS3,
-- JavaScript
-- Git and GitHub
-- Figma
-- React
+  <div class="campaigns">
 
-## 📁 Projects
+    <div class="campaign">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Summer Sale Campaign" />
+      <div class="campaign-content">
+        <div class="campaign-title">Summer Sale Blast</div>
+        <div class="campaign-desc">
+          Boost your sales this summer with our exclusive discounts and engaging email marketing campaigns designed to capture customer attention.
+        </div>
+        <a href="#" class="campaign-link">Learn More</a>
+      </div>
+    </div>
 
-### 1. Adding a web page about the solar system for primary school
-- **Description:** Making solar system knowledge more fluid.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project1_demo_link)
+    <div class="campaign">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Holiday Promotion" />
+      <div class="campaign-content">
+        <div class="campaign-title">Holiday Season Promotion</div>
+        <div class="campaign-desc">
+          Engage your audience during the holiday season with personalized SMS campaigns and loyalty rewards that increase customer retention.
+        </div>
+        <a href="#" class="campaign-link">Discover How</a>
+      </div>
+    </div>
 
-### 2. Simple Interest Calculator
-- **Description:** Facilitate faster calculation of interest.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project2_demo_link)
+    <div class="campaign">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="New Product Launch" />
+      <div class="campaign-content">
+        <div class="campaign-title">New Product Launch</div>
+        <div class="campaign-desc">
+          Launch your new products effectively using multi-channel strategies that combine email, SMS, and social media to maximize reach.
+        </div>
+        <a href="#" class="campaign-link">Get Started</a>
+      </div>
+    </div>
 
-- ### 3. Wine Festival Schedule
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project3_demo_link)
+  </div>
 
-- ### 4. Company Packing List
-- **Description:** Project of creating a list website at the request of the company.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project4_demo_link)
-
-- ### 5.New Account Create
-- **Description:** Project to create a new account while becoming a member of the website
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project5_demo_link)
-
-- ### 6.New York City Blog
-- **Description:** A webpage for the special event program for the Aguillar Family annual wine festival.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project6_demo_link)
-
-- ### 7.Burger Order App
-- **Description:** Website Project for Creating Orders at a Burger Restaurant.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project7_demo_link)
-
-- ### 8.Navigation Link
-- **Description:** Web page project showing location data.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project8_demo_link)
-
-- ### 9.FormAStory
-- **Description:** Form Data Home Page Project.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project9_demo_link)
-
-- ### 9.Lemon Tree Company Webpage
-- **Description:** Food order and reservation company webpage Project.
-- **Technologies Used:** HTML, CSS, JavaScript.
-- **Live Demo:** [Demo Link](Project9_demo_link)
-  
-## 📞 Contact
-- **E-mail:** [tangulezel@gmail.com](mailto:email@example.com)
-- **LinkedIn:** [www.linkedin.com/in/ezel-tangül](https://www.linkedin.com/in/username/)
-
-## 🎯 My Goals
-- To learn new technologies and keep this page up to date.
-- To contribute to more open source projects.
-- To specialize in web performance and accessibility.
-
----
-
-Thanks for visiting my portfolio page! You can reach me through the contact channels above for more information.
+</body>
+</html>
