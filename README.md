@@ -1,7 +1,31 @@
-## 🚀 My Portfolio & CV
+# Tangu Ezel - Portfolio & CV
 
-You can check out my complete CV and projects on my personal portfolio website:
+Welcome to my personal portfolio repository! Here you can find my latest projects, coding samples, and my professional CV.
 
-https://elegant-parfait-278852.netlify.app/
+---
 
-Feel free to explore my work and get in touch!
+## About Me
+
+I'm Tangu Ezel, a passionate web developer specializing in front-end and UI/UX design. I love building clean, responsive, and user-friendly websites.
+
+---
+
+## Explore
+
+Check out my full portfolio and CV on my personal website:
+
+[https://elegant-parfait-278852.netlify.app/](https://elegant-parfait-278852.netlify.app/)
+
+Feel free to browse my projects, learn about my skills, and get in touch!
+
+---
+
+## Contact
+
+- 📧 Email: your.email@example.com  
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+
+---
+
+Thank you for visiting!
