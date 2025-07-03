@@ -14,7 +14,7 @@ I'm Tangul Ezel, a passionate web developer specializing in front-end and UI/UX 
 
 Check out my full portfolio and CV on my personal website:
 
-[[https://elegant-parfait-278852.netlify.app/](https://elegant-parfait-278852.netlify.app/)](https://resonant-llama-b09f9b.netlify.app/)
+https://app.netlify.com/projects/resonant-llama-b09f9b/overview
 
 Feel free to browse my projects, learn about my skills, and get in touch!
 
