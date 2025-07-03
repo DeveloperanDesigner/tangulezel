@@ -14,7 +14,7 @@ I'm Tangul Ezel, a passionate web developer specializing in front-end and UI/UX 
 
 Check out my full portfolio and CV on my personal website:
 
-https://joyful-licorice-b14534.netlify.app/
+https://elegant-pudding-d075e9.netlify.app/
 
 Feel free to browse my projects, learn about my skills, and get in touch!
 
