@@ -53,9 +53,8 @@ Feel free to check out my live website and see my work:
 
 Feel free to get in touch:
 
-- 📧 Email: [email@example.com](tangulezel@gmail.com)  
-- 🔗 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/ezel-tangül))
-
+- 📧 Email: [tangulezel@gmail.com]()  
+- 🔗 LinkedIn: [(https://www.linkedin.com/in/ezel-tangül)]
 ---
 
 <div align="center">
