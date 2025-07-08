@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DeveloperanDesigner | Front-End Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Text Animation</title> <!-- Font Awesome İkonlar -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
   <style>
     * {
       box-sizing: border-box;
@@ -15,26 +17,23 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: #f9f9f9;
-      /* açık gri-beyaz arka plan */
+      background-color: #f9f9f9;
+      width: 100vw;
+      height: 200vh;
       color: #222;
-      /* koyu siyah-gri yazı */
       line-height: 1.6;
     }
 
     header {
       background: #fff;
-      /* beyaz */
       color: #222;
       padding: 2rem 1rem;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      /* hafif gri gölge */
     }
 
     nav a {
       color: #555;
-      /* orta gri link */
       margin: 0 1rem;
       text-decoration: none;
       font-weight: 600;
@@ -43,7 +42,6 @@
 
     nav a:hover {
       color: #000;
-      /* siyah hover */
     }
 
     .container {
@@ -58,16 +56,13 @@
 
     h2 {
       color: #111;
-      /* koyu gri/siyah */
       margin-bottom: 1rem;
       border-bottom: 2px solid #ccc;
-      /* açık gri alt çizgi */
       padding-bottom: 0.5rem;
     }
 
     .project {
       background: #fff;
-      /* beyaz kart */
       padding: 1rem;
       margin-bottom: 1.5rem;
       border-radius: 8px;
@@ -97,21 +92,62 @@
       text-decoration: underline;
     }
 
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    ul li i {
+      margin-right: 0.5rem;
+      color: #555;
+    }
+
     footer {
       text-align: center;
       padding: 2rem 1rem;
       color: #555;
       font-size: 0.9rem;
       background: #eee;
-      /* açık gri */
       border-top: 1px solid #ccc;
     }
+
+    a {
+      color: #222;
+    }
+
+    a:hover {
+      color: #000;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 0, 0, 0.7);
+      /* Kırmızı yarı saydam */
+      border-radius: 50%;
+      pointer-events: none;
+      /* Tıklamayı engelle */
+      transform: translate(-50%, -50%);
+      transition: background-color 0.3s ease;
+      z-index: 9999;
+    }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
-  <header>
-    <h1>DeveloperanDesigner</h1>
+  <div class="custom-cursor"></div>
+  <header class="header-with-image">
+    <div class="header-image-wrapper">
+      <h1 class="animated-text">DeveloperanDesigner</h1>
+    </div>
     <p>Front-End Developer | HTML, CSS, JS</p>
     <nav>
       <a href="#about">About</a>
@@ -120,7 +156,6 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
-
   <main class="container">
     <section id="about">
       <h2>About</h2>
@@ -139,82 +174,190 @@
         and exceeding all that I do.</p>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Projects</h2>
 
-      <div class="project">
-        <h3>Fashion Blog</h3>
-        <p>a fashion student page that makes suggestions by following trends.</p>
-        <a href="https://hilarious-fenglisu-ebc2e4.netlify.app/">Live Demo</a>
-      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="fashion.blog.png" class="project-image" alt="Fashion Blog">
+          <div class="project-info">
+            <h3 class="project-title">Fashion Blog</h3>
+            <p class="project-description">fashion student page that makes suggestions by following trends.</p>
+            <a href="https://hilarious-fenglisu-ebc2e4.netlify.app/">Live Demo</a>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Simple Interest Calculator</h3>
-        <p>A web application designed to simplify interest calculations.</p>
-        <a href="#">Live Demo</a>
-      </div>
+        <div class="project-card">
+          <img src="wine.png" class="project-image" alt="Wine Festival Schedule">
+          <div class="project-info">
+            <h3 class="project-title">Wine Festival Schedule</h3>
+            <p class="project-description">Event calendar web page (Aguillar Family Wine Festival).</p>
+            <a href="https://melodious-malasada-99620c.netlify.app/">Live Demo</a>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Wine Festival Schedule</h3>
-        <p>Event calendar web page (Aguillar Family Wine Festival).</p>
-        <a href="https://melodious-malasada-99620c.netlify.app/">Live Demo</a>
-      </div>
+        <div class="project-card">
+          <img src="burger.order.png" class="project-image" alt="Burger Order App">
+          <div class="project-info">
+            <h3 class="project-title">Burger Order App</h3>
+            <p class="project-description">Order placement interface from the menu for the burger restaurant.</p>
+            <a href="https://jazzy-torte-45a3d8.netlify.app/">Live Demo</a>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Burger Order App</h3>
-        <p>Order placement interface from the menu for the burger restaurant.</p>
-        <a href="https://jazzy-torte-45a3d8.netlify.app/">Live Demo</a>
-      </div>
+        <div class="project-card">
+          <img src="campaign.png" class="project-image" alt="Campaign Project">
+          <div class="project-info">
+            <h3 class="project-title">Campaign Project</h3>
+            <p class="project-description">E-mail advertising campaign web application.</p>
+            <a href="https://sensational-sprinkles-833439.netlify.app" target="_blank" rel="noopener noreferrer">Live
+              Demo</a>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Campaign Project</h3>
-        <p>E-mail advertising campaign web application.</p>
-        <a href="https://sensational-sprinkles-833439.netlify.app" target="_blank" rel="noopener noreferrer">Live
-          Demo</a>
-      </div>
+        <div class="project-card">
+          <img src="lemon.png" class="project-image" alt="Lemon Project">
+          <div class="project-info">
+            <h3 class="project-title">Lemon Project</h3>
+            <p class="project-description">Little Lemon is a family-owned Mediterranean restaurant, focused on
+              traditional recipes served with a modern twist.</p>
+            <a href="https://glistening-conkies-5af709.netlify.app/" target="_blank" rel="noopener noreferrer">Live
+              Demo</a>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3> Lemon Project</h3>
-        <p>Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern
-          twist.</p>
-        <a href="https://glistening-conkies-5af709.netlify.app/" target="_blank" rel="noopener noreferrer">Live
-          Demo</a>
-      </div>
-
-      <div class="project">
-        <h3> Luck Shrub Project</h3>
-        <p>Family garden design website project</p>
-        <a href="https://jolly-platypus-3be3db.netlify.app/" target="_blank" rel="noopener noreferrer">Live
-          Demo</a>
+        <div class="project-card">
+          <img src="luck.shrub.png" class="project-image" alt="Luck Shrub Project">
+          <div class="project-info">
+            <h3 class="project-title">Luck Shrub Project</h3>
+            <p class="project-description">Family garden design website project</p>
+            <a href="https://jolly-platypus-3be3db.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </div>
       </div>
     </section>
-
 
     <section id="skills">
       <h2>Skills</h2>
       <ul>
-        <li>HTML5, CSS3</li>
-        <li>JavaScript (ES6+)</li>
-        <li>Responsive Design</li>
-        <li>Git & GitHub</li>
-        <li>Netlify Deployment</li>
-        <li>Web Performance & SEO</li>
-        <li>Wireframing & Prototyping (Figma, Adobe XD)</li>
-        <li>User Research & A/B Testing</li>
+        <li>
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML5
+          <div class="skill-bar">
+            <div class="skill-level intermediate" style="--width: 65%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fab fa-css3-alt" aria-hidden="true"></i> CSS3
+          <div class="skill-bar">
+            <div class="skill-level intermediate" style="--width: 65%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fab fa-js" aria-hidden="true"></i> JavaScript
+          <div class="skill-bar">
+            <div class="skill-level beginner" style="--width: 35%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fab fa-github" aria-hidden="true"></i> Git & GitHub
+          <div class="skill-bar">
+            <div class="skill-level beginner" style="--width: 35%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-mobile-alt" aria-hidden="true"></i> Responsive Design
+          <div class="skill-bar">
+            <div class="skill-level beginner" style="--width: 35%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-rocket" aria-hidden="true"></i> Netlify Deployment
+          <div class="skill-bar">
+            <div class="skill-level intermediate" style="--width: 65%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-draw-polygon" aria-hidden="true"></i> Wireframing & Prototyping (Figma, Adobe XD)
+          <div class="skill-bar">
+            <div class="skill-level intermediate" style="--width: 65%;"></div>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-flask" aria-hidden="true"></i> User Research & A/B Testing
+          <div class="skill-bar">
+            <div class="skill-level beginner" style="--width: 35%;"></div>
+          </div>
+        </li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>E-posta: tangulezel@gmail.com</p>
-      <p>Linkedin:www.linkedin.com/in/ezel-tangül</p>
-      <p>Github: https://github.com/DeveloperanDesigner/tangulezel.git </p>
+      <p><i class="fas fa-envelope"></i> E-posta: <a href="mailto:tangulezel@gmail.com">tangulezel@gmail.com</a></p>
+      <p><i class="fab fa-linkedin"></i> Linkedin: <a href="https://www.linkedin.com/in/ezel-tangül"
+          target="_blank">ezel-tangül</a></p>
+      <p><i class="fab fa-github"></i> Github: <a href="https://github.com/DeveloperanDesigner"
+          target="_blank">DeveloperanDesigner</a></p>
+    </section>
+    <section id="certificates">
+      <ul class="certificates-list">
+        <li>
+          <strong>Meta Front-End Developer Certificate</strong>
+          <a href="https://www.coursera.org/account/accomplishments/verify/Z9LLNSB02PI6" target="_blank"
+            rel="noopener noreferrer" class="cert-icon-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M3.9 12a5 5 0 0 1 0-7.07l3.54-3.54 1.42 1.42L5.31 6.35a3 3 0 0 0 0 4.24l1.41 1.42-1.41 1.42-1.42-1.42zm16.2 0a5 5 0 0 1 0 7.07l-3.54 3.54-1.42-1.42 2.03-2.03a3 3 0 0 0 0-4.24l-1.42-1.42 1.42-1.42 1.42 1.42zM8.59 15.41l6.82-6.82 1.42 1.42-6.82 6.82z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <strong>Introduction to Web Development with HTML5, CSS3, and JavaScript</strong>
+          <a href="https://courses.edx.org/certificates/d9aabf174de94c06882b882a708248aa" target="_blank"
+            rel="noopener noreferrer" class="cert-icon-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M3.9 12a5 5 0 0 1 0-7.07l3.54-3.54 1.42 1.42L5.31 6.35a3 3 0 0 0 0 4.24l1.41 1.42-1.41 1.42-1.42-1.42zm16.2 0a5 5 0 0 1 0 7.07l-3.54 3.54-1.42-1.42 2.03-2.03a3 3 0 0 0 0-4.24l-1.42-1.42 1.42-1.42 1.42 1.42zM8.59 15.41l6.82-6.82 1.42 1.42-6.82 6.82z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <strong>Web & Mobile Designer: UI/UX, Figma</strong>
+          <a href="https://www.udemy.com/certificate/UC-8aa3dbc3-cc69-4c7d-985c-8a3ca667556a/" target="_blank"
+            rel="noopener noreferrer" class="cert-icon-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M3.9 12a5 5 0 0 1 0-7.07l3.54-3.54 1.42 1.42L5.31 6.35a3 3 0 0 0 0 4.24l1.41 1.42-1.41 1.42-1.42-1.42zm16.2 0a5 5 0 0 1 0 7.07l-3.54 3.54-1.42-1.42 2.03-2.03a3 3 0 0 0 0-4.24l-1.42-1.42 1.42-1.42 1.42 1.42zM8.59 15.41l6.82-6.82 1.42 1.42-6.82 6.82z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
-
   <footer>
-    <p>&copy; 2025 DeveloperanDesigner. All rights reserved.</p>
+    &copy; 2025 DeveloperanDesigner. All rights reserved.
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const cursor = document.querySelector('.custom-cursor');
+    window.addEventListener('mousemove', e => {
+      cursor.style.top = e.clientY + 'px';
+      cursor.style.left = e.clientX + 'px';
+    });
+
+    // İstersen hover efektleri ekleyebilirsin
+    document.querySelectorAll('a, button').forEach(elem => {
+      elem.addEventListener('mouseenter', () => {
+        cursor.style.backgroundColor = 'rgba(0, 255, 0, 0.7)'; // Yeşile dönüş
+      });
+      elem.addEventListener('mouseleave', () => {
+        cursor.style.backgroundColor = 'rgba(255, 0, 0, 0.7)'; // Kırmızıya geri
+      });
+    });
+  </script>
+
 </body>
 
 </html>
