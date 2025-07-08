@@ -37,17 +37,6 @@ Feel free to check out my live website and see my work:
 
 </details>
 
----
-
-## 🖥️ Screenshots
-
-<div align="center">
-  <img src="https://imgur.com/a/OayOup7" alt="Screenshot 1" width="300" />
-  <img src="i.imgur.com/bw2nJI9.jpg" alt="Screenshot 2" width="300" />
-  <img src="i.imgur.com/m902LF3.jpg" alt="Screenshot 3" width="300" />
-  <img src="i.imgur.com/UoSPAGe.jpg" alt="Screenshot 4" width="300" />
-  <img src="i.imgur.com/kMU2Qyt.jpg" alt="Screenshot 5" width="300" />
-</div>
 
 
 ---
