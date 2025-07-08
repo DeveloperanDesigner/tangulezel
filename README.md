@@ -43,8 +43,12 @@ Feel free to check out my live website and see my work:
 ## 🖥️ Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x300?text=Portfolio+Screenshot+1" alt="Screenshot 1" width="300" />
-  <img src="https://via.placeholder.com/600x300?text=Portfolio+Screenshot+2" alt="Screenshot 2" width="300" />
+  <img src="https://imgur.com/a/XnMoa2F" alt="Screenshot 1" width="300" />
+  <img src="https://imgur.com/a/bw2nJI9" alt="Screenshot 2" width="300" />
+  <img src="https://imgur.com/a/m902LF3" alt="Screenshot 3" width="300" />
+  <img src="https://imgur.com/a/UoSPAGe9" alt="Screenshot 4" width="300" />
+  <img src="https://imgur.com/a/kMU2Qyt" alt="Screenshot 5" width="300" />
+
 </div>
 
 ---
